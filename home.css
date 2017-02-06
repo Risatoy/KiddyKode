@@ -1,0 +1,42 @@
+/*Body*/
+#game_area{
+    margin: 8% auto 5% auto;
+    height: 700px;
+    width: 1200px;
+    box-shadow: 0px 0px 48px -9px rgba(255,255,255,1);;
+}
+ 
+li{
+    display: inline-block;
+}
+#nav_wrapper{
+    font-size: 30px;
+    font-family: 'Bangers', sans-serif;
+}
+
+#game_text{
+    text-align: center;
+}
+.nav_icon{
+   width: 20%;
+}
+
+.nav_button{
+    position: relative;
+    top: -230px;
+    transition: 0.3s;
+}
+
+.nav_button:hover{
+    top:-200px;
+}
+
+.cloud{
+    position: absolute;
+}
+
+.nav_text{
+    position: relative;
+    top: 260px;
+    left: 117px;
+}
